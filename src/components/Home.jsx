@@ -1,10 +1,11 @@
 import { NavBar } from "./Navbar";
+import { Banner } from "./Banner";
 
 export const Home = () => {
   return (
     <>
       <NavBar />
-      <h1>Home</h1>
+      <Banner />
     </>
   );
 };
