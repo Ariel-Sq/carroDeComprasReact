@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name":"On the road",
+        "author":"Jack Kerouac",
+        "price": 10,
+        "img": "https://whitmorerarebooks.cdn.bibliopolis.com/pictures/1226.jpg"
+    },
+    {
+        "id": 2,
+        "name":"The subterraneans",
+        "author":"Jack Kerouac",
+        "price": 20,
+        "img": "https://rarebookcellar.cdn.bibliopolis.com/pictures/161590.jpg?auto=webp&v=1652479184"
+    },
+    {
+        "id": 3,
+        "name":"Indian Journals",
+        "author":"Allen Ginsberg",
+        "price": 18,
+        "img": "https://manhattanrarebooks.cdn.bibliopolis.com/pictures/906.jpg?v=1354507437"
+    },
+    {
+        "id": 4,
+        "name":"Holy bible",
+        "author":"Rv1960",
+        "price": 10,
+        "img": "https://i.ebayimg.com/images/g/IHIAAOSwOIpdk6bv/s-l1600.jpg"
+    }
+]
