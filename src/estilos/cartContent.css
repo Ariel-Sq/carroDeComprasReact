@@ -1,0 +1,16 @@
+.cart-context {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.cart-context > img {
+    height: 120px;
+    width: 100%;
+    text-align: center;
+}
+
+.cartTotal {
+    text-align: center;
+}
