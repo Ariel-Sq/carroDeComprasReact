@@ -11,8 +11,12 @@ const DataProvider = ({ children }) => {
     axios("data.json").then((res) => setData(res.data));
   }, []);
 
+  const removeFromCart = (id) => {
+    setCart(cart.filter((product) => product.id !== id));
+  };
+
   return (
-    <dataContext.Provider value={{ data, cart, setCart }}>
+    <dataContext.Provider value={{ data, cart, setCart, removeFromCart }}>
       {children}
     </dataContext.Provider>
   );
